@@ -1,1 +1,2 @@
-Blog
+BRG31-ISEA Blog
+
