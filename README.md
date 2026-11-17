@@ -1,4 +1,4 @@
-BRG31-ISEA Blog
+BRG31-ISEA
 
 Lesson 1A - 1
 
