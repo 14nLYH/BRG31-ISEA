@@ -1,6 +1,6 @@
 BRG31-ISEA Blog
 
-Lesson 1A
+Lesson 1A /
 My First Virtual Machine - Setting up a Linux hypervisor
 
   What is a virtual machine and how does a hypervisor create one ?
