@@ -45,3 +45,51 @@ My First Virtual Machine - Setting up a Linux hypervisor
 Understanding CLI on Ubuntu
 
   CLI Basics
+
+    Learned different basic commands that can be used at the command line interface.
+    Kinda like how 'ps -e' is an instance of all process in the vm while 'top' is a
+    live version of all the processes running and ls commands to explore different
+    files. Editing files with commands was another interesting one with 'gedit' and
+    'nano' along with copying, moving and deleting files. Then, we tried to check our
+    system info using 'uname -a' and 'lsb_release -a'. An important one was about
+    root user and using sudo for admin privileges.
+
+    It was just networking like finding my private ip, pinging local device, talking
+    about DNS and how to look up ip for different domains. With abit of software
+    installation methods like SaaS, binary and repo.
+
+Lesson 1B /
+Linux Commands(SSH, File Permissions, File Search)
+
+  SSH, Firewalls, Services and Compression
+
+    We learned how to install web server like nginx or apache, ssh server using 'sudo apt 
+    install' and configure our firewall. We checked out our website with '127.0.0.1 and 
+    edited it which i think was pretty cool, tried to SSH a virtual machine from our computer
+    and controlling the vm from there. We also learned how to enable our firewall to only
+    allow certain ports so bad actors can't easily access of server.
+
+  File Permissions
+
+    We learned Linux file permissions and it is seperated into 3 roles which is user,
+    group and others. Using these you can seperate who is allowed to touch what. We created a
+    group and allowed them to only read and write and with that we made it so the user can
+    read, write and execute while others are unable to access anything with 'sudo chmod 750'.
+    The 750 just shows the binary        User Grp Others
+                                          rwx rwx rwx
+             1 = enabled                  111 101 000
+             0 = diabled                   7   5   0
+    Then we just adjusted a file with this settings and tested it out with 'su' to switch user.
+
+  File Search
+
+    Last but not least on 1B is file search. It teaches us how to search through files and
+    sort them in a certain way to help us look through files faster instead of just searching
+    one by one. 'find' and 'grep' i think were my most used commands in this lab activity
+    since find was used to search files by size and oldest/youngest while grep was used to
+    search for specific phrases, words or sentences. This was overall quite complicated 
+    as some of the commands included weird combination of symbols like '%T+ %p\n' and
+    's/\s/\n/g'.
+
+Lesson 2A /
+
