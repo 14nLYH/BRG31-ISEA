@@ -92,4 +92,19 @@ Linux Commands(SSH, File Permissions, File Search)
     's/\s/\n/g'.
 
 Lesson 2A /
+TCO and Cloud Web Serber
 
+  TCO Analysis
+
+    Today, i learned to calculate TCO(Total Cost of Ownership) which i don't really have
+    much to talk about since it's just a lot of maths. We calculated the total cost of having 
+    ownership of 2 things over a period of time and compare after the period which would cost
+    less and help a company reduce cost and therefore increase profits. For example, having 
+    your own server would be more expensive than cloud as you have to buy a server and hire
+    an expert for each of the of the service model and replace parts if it becomes outdated
+    or broken and other things whereas with cloud the service provider will settle everything
+    and the cost isn't overbearing plus it's way more elastic than building it yourself.
+
+  Cloud Web Server
+
+    
