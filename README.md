@@ -111,6 +111,31 @@ TCO and Cloud Web Serber
 Lesson 3A /
 DNS and SSL
 
-  DNS
+  DNS (Domain Name Server)
 
+    DNS just helps us to keep track of the ip addresses of each domains kinda like our contacts.
+    We just learned to claim a domain name for our AWS webserver and later on we are going to 
+    get a TLS certificate with certbot. For now, we used duckdns for a free domain name compared 
+    to like GoDaddy which is paid and connected it to our web server ip and voila, it is done.
+    
   SSL
+
+    This lesson is related to the previous one about web server. After we linked our domain name
+    to our web server ip, now we are going to give it a TLS certificate so our server can run on
+    HTTPS which helps to protect data using RSA algorithm. This was quite simple as we just
+    downloaded certbot and had it give us a cert which lasts 90 days but will automatically renew 
+    itself 30 days before expiry. Then, we went on to understand how to secure data in use, data
+    at rest and data in motion. For data in use, it mainly uses IAM which is kinda like permissions
+    where it controls who can read or change the data. For data at rest it is symmetric encryption
+    while data in motion is asymmetric encryption. Data at rest is data that is in storage and the
+    current symmetric encryption people use is AES since DES and 3DES is not secure anymore while
+    data in motion is well, data that is moving. It uses RSA algorithm to create a key pair that is
+    linked, one public and one private. A public key encrypts data while a private key helps to 
+    decrypt data that its counterpart encrypted. Each pair can only be used with their linked 
+    counterpart so i can't user my private key on someone elses public key encrypted data. I was
+    curious about the keys since i didn't understand, like if you the formula for one key pair,
+    wouldn't they all be the same and can be reversed so i researched. I found out that they used 
+    2 obsurdly large prime numbers, about 300 digits and use them in a formula and user the
+    remainders to create the keys which i barely understood it since it's a lot of maths. The point
+    is that it will take a modern computer about millions of years to crack one key pair so it is
+    nearly impossible to crack.
