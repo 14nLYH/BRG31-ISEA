@@ -107,6 +107,17 @@ TCO and Cloud Web Serber
 
   Cloud Web Server
 
+    This lesson was quite interesting as we learned to create our own web server. I used AWS
+    for my web server and honestly it was easier than i imagined it when i was younger or
+    maybe it's cause of how much modern society has progressed. I signed up for the free tier
+    and made an instance while following the steps given to us. I checked everything like the
+    status was running, checks 3/3 passed, i was given a public ip and inbound rules shows
+    that my port were open before SSHing into my server. Then we just donwloaded nginx 
+    on our ubuntu and checked it out in the browser. After lesson i experimented abit with
+    the server like changing the web page adding hyperlinks and whatnot. For now, we are using
+    port 80 HTTP but soon we will learn to get a domain name as we are using the public ip 
+    of our browser to find it and a TLS certificate so we can use port 443 instead which is 
+    HTTPS and is way safer.
     
 Lesson 3A /
 DNS and SSL
