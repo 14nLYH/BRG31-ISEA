@@ -1,6 +1,5 @@
 BRG31-ISEA Blog
 
-Lesson 1A /
 Virtualization and Linux Setup
 
   Setting up a hypervisor
@@ -40,7 +39,6 @@ Understanding CLI on Ubuntu
     about DNS and how to look up ip for different domains. With abit of software
     installation methods like SaaS, binary and repo.
 
-Lesson 1B /
 Linux Commands(SSH, File Permissions, File Search)
 
   SSH, Firewalls, Services and Compression
@@ -73,7 +71,6 @@ Linux Commands(SSH, File Permissions, File Search)
     as some of the commands included weird combination of symbols like '%T+ %p\n' and
     's/\s/\n/g'.
 
-Lesson 2A /
 TCO and Cloud Web Serber
 
   TCO Analysis
@@ -101,7 +98,6 @@ TCO and Cloud Web Serber
     of our browser to find it and a TLS certificate so we can use port 443 instead which is 
     HTTPS and is way safer.
     
-Lesson 3A /
 DNS and SSL
 
   DNS (Domain Name Server)
@@ -133,13 +129,32 @@ DNS and SSL
     is that it will take a modern computer about millions of years to crack one key pair so it is
     nearly impossible to crack.
 
-Lesson 2B /
 Scripting
 
   Bash script
 
-      e
+      Bash script is basically just a group of Bash commands being run sequentially from a file.
+      Sometimes we need to run like a sequence of of commands that are like used often so instead
+      of having to constantly type out the same few commands over everyday we can create a script.
+      We just have to write it once then we can execute it over using a way shorter execute command 
+      compared to the long sequence of commands that we would have to type. This makes all the menial
+      and repetitive tasks a lot more easier. Later we are going to learn to automate those tasks
+      to run at a certain time and make it even easier and automatic. I would say overall this is one
+      of the my favourite part since having to manually type out all these commands would be extremely
+      exhausting.
 
   Regular Expression
+
+      Regular expression would just be a pattern that can help us to check or search data. I know that
+      one of the best use cases of this is to check and verify an email is an email and not just words.
+      I watched a video a while ago about it so i wasn't too lost since it does look quite cryptic and
+      confusing although the concept behind it isn't too crazy. Although, having to remember all these
+      would definitely be a pain so it's nice knowing theres a lot of free regular expression made for
+      us already that can be found online or through AI. We were given a lot of scripts and common
+      regular expression commonly used in the outside world so i think that might come in quite handy.
+
+CronTab (Automated Backup)
+
+  CronTab
 
       e
