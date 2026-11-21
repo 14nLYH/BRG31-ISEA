@@ -18,8 +18,8 @@ Virtualization and Linux Setup
     in the VM itself to allow bridged or NAT internet access so that your VM
     can connect to the internet.
 
-    That's it for the setup. If you want to just run a Linux environment without
-    having to setup a VM or download a hypervisor, you can use WSL which allows you
+    That's it for the setup. If I wanted to just run a Linux environment without
+    having to setup a VM or download a hypervisor, I could use WSL which allows me
     to do just that without having the trouble of doing all the steps before and
     it starts up faster compared to having to start up an entire machine.
 
