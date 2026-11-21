@@ -1,27 +1,9 @@
 BRG31-ISEA Blog
 
 Lesson 1A /
-My First Virtual Machine - Setting up a Linux hypervisor
+Virtualization and Linux Setup
 
-  What is a virtual machine and how does a hypervisor create one ?
-
-    A virtual machine is a virtual computer that has 
-    its own OS(operating system) and apps inside of another 
-    physical computer while sharing some of its physical 
-    hardware resource like CPU, memory and storage.
-
-    A hypervisor is able to create one by allocating
-    slices of the host computer(physical)'s resources
-    to every virtual machine that you own. There's 2
-    kinds of hypervisor - Type 1 (bare metal) and Type 2.
-    Type 1 hypervisor is a hypervisor that runs directly on 
-    the host machine without a host OS usually for data centers.
-    Type 2 is what we are doing in this lesson where we 
-    have our host OS(Windows) and we download a hypervisor
-    like an application that doesn't affect our current OS 
-    or computer.
-
-  How to setup a hypervisor with an OS.
+  Setting up a hypervisor
 
     Step 1 - Pick a Virtualization tool(Hypervisor) and a Linux OS
     For me it was between VMware or VirtualBox. I did some research and most
@@ -150,3 +132,14 @@ DNS and SSL
     remainders to create the keys which i barely understood it since it's a lot of maths. The point
     is that it will take a modern computer about millions of years to crack one key pair so it is
     nearly impossible to crack.
+
+Lesson 2B /
+Scripting
+
+  Bash script
+
+      e
+
+  Regular Expression
+
+      e
