@@ -98,7 +98,7 @@ TCO and Cloud Web Serber
     of our browser to find it and a TLS certificate so we can use port 443 instead which is 
     HTTPS and is way safer.
     
-DNS and SSL
+DNS and TLS/SSL
 
   DNS (Domain Name Server)
 
@@ -107,7 +107,7 @@ DNS and SSL
     get a TLS certificate with certbot. For now, we used duckdns for a free domain name compared 
     to like GoDaddy which is paid and connected it to our web server ip and voila, it is done.
     
-  SSL
+  TLS/SSL
 
     This lesson is related to the previous one about web server. After we linked our domain name
     to our web server ip, now we are going to give it a TLS certificate so our server can run on
