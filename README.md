@@ -153,14 +153,14 @@ Scripting
       us already that can be found online or through AI. We were given a lot of scripts and common
       regular expression commonly used in the outside world so i think that might come in quite handy.
 
-CronTab (Automated Backup)
+Cron Job (Automated Backup)
 
-  CronTab
+  Cron Job
 
-      Lastly is about crontab. This is what helps us to automate running of scripts whenever we choose.
+      Lastly is about cron job. This is what helps us to automate running of scripts whenever we choose.
       This exists as a file in our Ubuntu and we just have to access is and enter when and which script.
       The timing to set is abit weird with 5 numbers. In order, it represends minutes, hours, day of month,
       month and day of week. For us to put 'every' we can just leave an * on the spot. For example, 
       * * * * * would be every minute and 0 2 * * * would run every 2 hours. Then we learned to connect
       this with our web server that we learned last week and automate sending there which in this case
-      was backing up files automatically and sending it to the cloud web server that we have.
+      was backing up files automatically and sending it to the cloud web server that we have. 
