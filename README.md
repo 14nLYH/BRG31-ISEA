@@ -164,3 +164,7 @@ Cron Job (Automated Backup)
       * * * * * would be every minute and 0 2 * * * would run every 2 hours. Then we learned to connect
       this with our web server that we learned last week and automate sending there which in this case
       was backing up files automatically and sending it to the cloud web server that we have. 
+
+Additional Server Service
+
+    e
