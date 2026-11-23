@@ -167,4 +167,12 @@ Cron Job (Automated Backup)
 
 Additional Server Service
 
-    e
+    This was a self learn lab where we just find a server service we want to setup and just run it i guess.
+    For me i ran with syslog which helps to collect, filters and forward logs. At first i wanted to run it
+    from my AWS EC2 instance but i was spending too much time trying to figuring it out so i just did it
+    on my VM and send it there after. At the end, i did use what we learned about using scp to secure copy
+    the log file onto the web server with a script. Although there is a better way to do it with the 
+    destination but it's fine for now. I hope i am not doing this wrongly and was able to get some marks lol.
+    But overall i think this was a good experience for me cause i am not always gonna have someone to give
+    me the materials to study for something new since technology is ever evolving and i think i did ok so
+    hopefully i do well for the exam.
