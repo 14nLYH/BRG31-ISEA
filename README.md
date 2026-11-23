@@ -174,6 +174,6 @@ Additional Server Service
     just did it on my VM and send it there after. At the end, i did use what we learned about using scp 
     to secure copy the log file onto the web server with a script. Although there is a better way to do 
     it with the destination but it's fine for now. I hope i am not doing this wrongly and was able to 
-    get some marks lol. But overall i think this was a good experience for me cause i am not always gonna 
-    have someone to give me the materials to study for something new since technology is ever evolving 
-    and i think i did ok so hopefully i do well for the exam.
+    get some marks lol. But overall i think this was a good experience for me cause i am not always 
+    gonna have someone to give me the materials to study for something new since technology is ever 
+    evolving and i think i did ok so hopefully i do well for the exam.
