@@ -159,11 +159,11 @@ Cron Job (Automated Backup)
 
       Lastly is about cron job. This is what helps us to automate running of scripts whenever we choose.
       This exists as a file in our Ubuntu and we just have to access is and enter when and which script.
-      The timing to set is abit weird with 5 numbers. In order, it represends minutes, hours, day of month,
-      month and day of week. For us to put 'every' we can just leave an * on the spot. For example, 
-      * * * * * would be every minute and 0 2 * * * would run every 2 hours. Then we learned to connect
-      this with our web server that we learned last week and automate sending there which in this case
-      was backing up files automatically and sending it to the cloud web server that we have. 
+      The timing to set is abit weird with 5 numbers. In order, it represends minutes, hours, day of 
+      month, month and day of week. For us to put 'every' we can just leave an * on the spot. For 
+      example, * * * * * would be every minute and 0 2 * * * would run every 2 hours. Then we learned to 
+      connect this with our web server that we learned last week and automate sending there which in this 
+      case was backing up files automatically and sending it to the cloud web server that we have. 
 
 Additional Server Service
 
@@ -172,7 +172,7 @@ Additional Server Service
     from my AWS EC2 instance but i was spending too much time trying to figuring it out so i just did it
     on my VM and send it there after. At the end, i did use what we learned about using scp to secure copy
     the log file onto the web server with a script. Although there is a better way to do it with the 
-    destination but it's fine for now. I hope i am not doing this wrongly and was able to get some marks lol.
-    But overall i think this was a good experience for me cause i am not always gonna have someone to give
-    me the materials to study for something new since technology is ever evolving and i think i did ok so
-    hopefully i do well for the exam.
+    destination but it's fine for now. I hope i am not doing this wrongly and was able to get some marks 
+    lol. But overall i think this was a good experience for me cause i am not always gonna have someone to 
+    give me the materials to study for something new since technology is ever evolving and i think i did 
+    ok so hopefully i do well for the exam.
